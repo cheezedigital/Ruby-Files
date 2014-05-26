@@ -10,6 +10,7 @@ take 2 pieces of bread and on 1 slice, apply jelly, and on the
 other, apply peanut butter.
 when finished, take both pieces of bread and place together.
 =end
+
 puts "Today, I'm going to attempt to properly instruct making a PBJ Sammy."
 
 sammy = "PBJ"
