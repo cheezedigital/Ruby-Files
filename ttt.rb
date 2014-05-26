@@ -13,3 +13,16 @@ Define all 8 winning combinations
 Check to see if anyone has won
 After 9 turns, if no one has won, it's a tie
 =end
+=begin
+board = [
+[","][","][","]
+[","][","][","]
+[","][","][","]
+]
+=end
+puts "Step right up!, You're the next contestent on tic tac toe!"
+if x > y
+  print "player x goes first"
+else
+  print "player y goes first"
+end
