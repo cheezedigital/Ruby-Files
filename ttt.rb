@@ -14,6 +14,8 @@ Check to see if anyone has won
 After 9 turns, if no one has won, it's a tie
 =end
 =begin
+1 main loop to run 9 times, and a few else loops inside of it
+and a who goes first.
 board = [
 [","][","][","]
 [","][","][","]
