@@ -22,6 +22,12 @@ board = [
 [","][","][","]
 ]
 =end
+if x_in_top_left && x_in_top_mid && x_in_top_right ||
+  x_in_mid_left && x_in_mid_mid && x_in_mid_right ||
+ x_in_bot_left && x_in_bot_mid && x_in_bot_right
+ puts “x wins!”
+end
+
 puts "Step right up!, You're the next contestent on tic tac toe!"
 if x > y
   print "player x goes first"
