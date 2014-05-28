@@ -16,21 +16,62 @@ After 9 turns, if no one has won, it's a tie
 =begin
 1 main loop to run 9 times, and a few else loops inside of it
 and a who goes first.
-board = [
-[","][","][","]
-[","][","][","]
-[","][","][","]
-]
 =end
-if x_in_top_left && x_in_top_mid && x_in_top_right ||
-  x_in_mid_left && x_in_mid_mid && x_in_mid_right ||
- x_in_bot_left && x_in_bot_mid && x_in_bot_right
- puts “x wins!”
+#-----------------------------------
+puts "welcome to tic tac toe!"
+
+#-----------------------------------
+board = [
+["" ,  "" , ""],
+["" ,  "" , ""],
+["" ,  "" , ""]
+]
+
+#section for loop
+#-----------------------------------
+class TicTacToe
+
+  attr_accessor :
+
+  def initialize()
+    @ =
+    @ =
+  end
+
+  def player1(p1)
+    if square open == yes
+     puts "pick spot #{p1}"
+    else
+     puts "pick another"
+    end
+  end
+
+
+  def player2(p2)
+    if square open == yes
+     puts "pick spot #{p2}"
+    else
+     puts "pick another, fool"
+    end
+  end
 end
 
-puts "Step right up!, You're the next contestent on tic tac toe!"
-if x > y
-  print "player x goes first"
-else
-  print "player y goes first"
-end
+player1 = TicTacToe.new
+player1.player1("justin")
+player2 = TicTacToe.new
+player2.player2("lia")
+
+#--------------------------------
+if
+
+  if o_in_top_left && o_in_top_mid && o_in_top_right ||
+   o_in_mid_left && o_in_mid_mid && o_in_mid_right ||
+   o_in_bot_left && o_in_bot_mid && o_in_bot_right
+   puts “o wins!”
+  end
+
+  if x_in_top_left && x_in_top_mid && x_in_top_right ||
+   x_in_mid_left && x_in_mid_mid && x_in_mid_right ||
+   x_in_bot_left && x_in_bot_mid && x_in_bot_right
+   puts “x wins!”
+  end
